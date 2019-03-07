@@ -181,13 +181,13 @@ The singleton instance of the ``` CalculatorEndpoints ``` class can be accessed 
 	});
 ```
 
-### <a name="calculate"></a>![Method: ](https://apidocs.io/img/method.png ".CalculatorEndpoints.calculate") calculate
+### <a name="calculate_op"></a>![Method: ](https://apidocs.io/img/method.png ".CalculatorEndpoints.calculateOp") calculateOp
 
 > Calculates the expression using the specified operation..
 
 
 ```javascript
-function calculate(operation, x, y)
+function calculateOp(operation, x, y)
 ```
 #### Parameters
 
@@ -210,7 +210,7 @@ function calculate(operation, x, y)
         var y = 5;
 
 
-		var result = CalculatorEndpoints.calculate(operation, x, y);
+		var result = CalculatorEndpoints.calculateOp(operation, x, y);
         //Function call returns a promise
         result.then(function(success){
 			//success case
